@@ -1,0 +1,56 @@
+  .nav-logo{
+    width: 50px;
+  }
+
+
+#navbar-main {
+    background: #343a40;
+}
+
+.nav-item {
+    letter-spacing: 0.15em;
+    border-radius: 5px;
+}
+
+.navbar .active {
+    background: #454749;
+}
+
+body {
+  background-color: #fff;
+  overflow-y: scroll;
+  min-height: 100vh;
+  background-position: bottom;
+  background-position-x: center;
+  background-repeat: repeat-x;
+  background-size: 60vh;
+  background-image: url('../images/circuit_dots.svg');
+  padding-bottom: 30vh;
+  position: relative;
+}
+
+footer{
+   background-color: #575757;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+.footer-copyright{
+    background-color: #575757;
+    
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link{
+    background-color: transparent;
+}
+
+.nav-item
+{
+    overflow: hidden;    
+}
+
+
+.card-header a{
+    color: #343a40;
+}
